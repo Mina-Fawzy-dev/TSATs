@@ -1,0 +1,37 @@
+# Tech Support Tools
+
+A collection of simple batch scripts for everyday tech support tasks. No installs needed — just double-click and go.
+
+## Scripts
+
+### `tech_tools.bat`
+A menu-driven tool with 5 options:
+
+| Option | What it does |
+|--------|-------------|
+| 1 | Show my IP address (`ipconfig`) |
+| 2 | Ping Google to test internet |
+| 3 | Check disk space on all drives |
+| 4 | Clear temp files (asks before deleting) |
+| 5 | Show system info (OS, RAM, manufacturer) |
+
+### `network_devices.bat`
+Scans your network and shows computer names, IPs, and MAC addresses of nearby devices.
+
+## How to use
+
+1. **Double-click** any `.bat` file
+2. Type a number and press **Enter**
+3. Press any key to go back to the menu
+
+## Admin rights
+
+Some options work better **as Administrator**:
+- Right-click the `.bat` file → **Run as administrator**
+- Options 4 and 5 will show a warning if you don't
+
+## Requirements
+
+- Windows 7 / 8 / 10 / 11
+- No extra software to install
+
